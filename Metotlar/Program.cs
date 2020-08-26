@@ -11,6 +11,17 @@ namespace Metotlar
         static void Main(string[] args)
         {
 
+            Yaz("çağatay", "yıldız");
+
+            //Dışarıdan aldığı iki metni birleştirip EKRANA yazar
+            void Yaz(string kelime1,string kelime2)
+            {
+                Console.WriteLine(kelime1 + " " + kelime2);
+                Console.ReadLine();
+            }
+
+
+
             //Dışarıdan 2 tane int değişken alan ve bu değikenleri toplayıp geriye döndüren metot
             //int Topla(int x, int y)
             //{
@@ -108,12 +119,12 @@ namespace Metotlar
             //}
 
             //kdv hesaplayan metot
-            double KDVHesapla(double fiyat)
-            {
-                double sonuc = fiyat * 1.18;
+            //double KDVHesapla(double fiyat)
+            //{
+            //    double sonuc = fiyat * 1.18;
 
-                return sonuc;
-            }
+            //    return sonuc;
+            //}
 
 
             //Gelen metnin solundaki yıldızları kaldır *
